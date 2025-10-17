@@ -1,0 +1,22 @@
+echo "Python is a programming language. It is used for web development and data science." > test.txt
+
+```
+
+Try uploading this `test.txt` file to see if it works.
+
+---
+
+### Fix 3: Check If You're in Codespaces/Cloud IDE
+
+I notice from your terminal that you're using **GitHub Codespaces** (`@v41nw7jl`). The 403 error might be due to Codespaces permissions.
+
+**Solution:**
+
+1. Make sure your Codespace port 8501 is set to **Public**:
+   - In Codespaces, go to "PORTS" tab (bottom panel)
+   - Find port 8501
+   - Right-click → Change Port Visibility → **Public**
+
+2. Or try accessing via the **External URL** shown in your terminal:
+```
+   External URL: http://20.192.21.52:8501
