@@ -9,7 +9,7 @@ class Settings:
     
     # API Configuration
     GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-    GROQ_MODEL = "llama-3.1-70b-versatile"  # Fast and good quality
+    GROQ_MODEL = "llama-3.3-70b-versatile"  # Fast and good quality
     MAX_TOKENS = 4096
     
     # App Configuration
